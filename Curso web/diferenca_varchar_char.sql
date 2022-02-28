@@ -1,0 +1,2 @@
+--char: tamanho fixo, mais rapido para pesquisa
+--varchar: tamanho variavel se adequa ao tamanho da variavel

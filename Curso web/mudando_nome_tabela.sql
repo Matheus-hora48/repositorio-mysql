@@ -1,0 +1,1 @@
+RENAME TABLE <nome_atual> TO <novo_nome>;
