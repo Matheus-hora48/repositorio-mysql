@@ -1,1 +1,9 @@
-CREATE TABLE `db_curso_web`.`tb_cursos` ( `id_curso` INT NOT NULL , `imagem_curso` VARCHAR(100) NOT NULL , `nome_curso` CHAR(50) NOT NULL , `resumo` TEXT NOT NULL , `data_cadastro` DATETIME NOT NULL , `ativo` BOOLEAN NOT NULL DEFAULT TRUE , `investimento` FLOAT NOT NULL DEFAULT '0' ) ENGINE = InnoDB;
+CREATE TABLE tb_curso(
+    id_curso int NOT null,
+    imagem_curso varchar(100) NOT null,
+    nome_curso char(50) NOT null,
+    resumo text null,
+    data_cadastro datetime NOT null,
+    ativo boolean DEFAULT true,
+    investimento float(8,2) DEFAULT 0 
+);
