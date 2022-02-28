@@ -1,0 +1,1 @@
+CREATE TABLE `db_curso_web`.`tb_cursos` ( `id_curso` INT NOT NULL , `imagem_curso` VARCHAR(100) NOT NULL , `nome_curso` CHAR(50) NOT NULL , `resumo` TEXT NOT NULL , `data_cadastro` DATETIME NOT NULL , `ativo` BOOLEAN NOT NULL DEFAULT TRUE , `investimento` FLOAT NOT NULL DEFAULT '0' ) ENGINE = InnoDB;
